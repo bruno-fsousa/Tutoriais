@@ -42,12 +42,14 @@ pip freeze > requirements.txt
 
 ## Linux
 
-1. Para criar um ambiente virtual, abra um terminal do linux e digite o seguinte comando:
+### Criação de um ambiente virtual
+
+- Para criar um ambiente virtual, abra um terminal do linux e digite o seguinte comando:
 ```bash
 cd ~/ && python -m venv /Caminho/Completo/da/Pasta/AmbienteVirtual
 ```
 
-2. **Ative o ambiente virtual.** Para isto:
+### Ativação do ambiente virtual. 
 
 - Entre na pasta `AmbienteVirtual` com o comando
 ```bash
@@ -64,7 +66,7 @@ find . -type f -iname "activate" | grep -i "activate$"
 source /Caminho/Completo/do/Arquivo/"activate$"
 ```
 
-3. **Instalação de bibliotecas**
+### Instalação de bibliotecas
 
 - Após ativar o ambiente virtual, entre na pasta `AmbienteVirtual` e use o comando
 ```python
@@ -72,9 +74,9 @@ python -m pip install nomeDaBiblioteca
 ```
 para instalar uma biblioteca.
 
-4. **Criação do arquivo `requirements.txt`**
+### Criação do arquivo `requirements.txt`
 
-Para criar o arquivo `requirements.txt`, execute o comando
+- Para criar o arquivo `requirements.txt`, execute o comando
 ```python
 pip freeze > requirements.txt
 ```
