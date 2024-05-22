@@ -18,12 +18,12 @@ dir /s /b | findstr /i /r "\\activate$"
 ```
 Use o comando `dir` para listar os arquivos no windows.
 
-3. Para ativar, entre na pasta que contém o arquivo `activate` e use o comando 
+3. Para ativar o ambiente virtual, entre na pasta que contém o arquivo `activate` e use o comando 
 ```cmd
 .\activate
 ```
 
-1. **Após ativar o python do ambiente virtual**, use o comando 
+1. **Após ativar o ambiente virtual**, use o comando 
 ```python
 python -m pip install nomeDaBiblioteca
 ```
