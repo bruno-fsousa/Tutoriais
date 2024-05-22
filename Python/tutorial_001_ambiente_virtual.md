@@ -8,14 +8,22 @@ python -m venv nomeDoAmbienteVirtual
 
 ### Instalar uma biblioteca
 
-1. Entre na pasta nomeDoAmbienteVirtual e procure pelo arquivo `activate`. Use o comando `dir` para listar os arquivos no windows.
+1. Entre na pasta nomeDoAmbienteVirtual com o comando
+```cmd
+cd c:\Caminho\completo\do\nomeDoAmbienteVirtual
+```
+e procure pelo arquivo `activate`. Use o comando 
+```cmd
+dir /s /b | findstr /i /r "\\activate$"
+```
+Use o comando `dir` para listar os arquivos no windows.
 
-2. Para ativar, use o comando 
+3. Para ativar, entre na pasta que contém o arquivo `activate` e use o comando 
 ```cmd
 .\activate
-``` 
+```
 
-3. **Após ativar o python do ambiente virtual**, use o comando 
+1. **Após ativar o python do ambiente virtual**, use o comando 
 ```python
 python -m pip install nomeDaBiblioteca
 ```
