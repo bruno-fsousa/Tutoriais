@@ -10,7 +10,12 @@ python -m venv nomeDoAmbienteVirtual
 
 1. Entre na pasta nomeDoAmbienteVirtual e procure pelo arquivo `activate`. Use o comando `dir` para listar os arquivos no windows.
 
-2. **Após ativar o python do ambiente virtual**, use o comando 
+2. Para ativar, use o comando 
+```cmd
+.\activate
+``` 
+
+3. **Após ativar o python do ambiente virtual**, use o comando 
 ```python
 python -m pip install nomeDaBiblioteca
 ```
