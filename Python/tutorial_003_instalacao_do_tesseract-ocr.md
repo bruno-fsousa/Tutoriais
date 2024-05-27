@@ -25,6 +25,7 @@ pip install pytesseract
 
 ### Instalação do ``tesseract-ocr``
 - Baixe o instalador do ``tesseract-ocr`` para o Windows no [Link oficial](https://github.com/UB-Mannheim/tesseract/wiki).
+- Caso o Download esteja muito lento, instale o software [Free Download Manager](https://www.freedownloadmanager.org/pt/), e use-o para acelerar o downloaddo arquivo.
 - Durante a instalação copie o caminho da pasta do ``Tesseract-OCR``. Geralmente o caminho completo é
 ```cmd
 C:\Program Files\Tesseract-OCR
