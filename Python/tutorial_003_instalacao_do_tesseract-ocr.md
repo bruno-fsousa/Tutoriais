@@ -24,13 +24,13 @@ pip install pytesseract
 ```
 
 ### Instalação do ``tesseract-ocr``
-- Baixe o instalador do ``tesseract-ocr`` para o Windows no [Link](https://github.com/UB-Mannheim/tesseract/wiki).
+- Baixe o instalador do ``tesseract-ocr`` para o Windows no [Link oficial](https://github.com/UB-Mannheim/tesseract/wiki).
 - Durante a instalação copie o caminho da pasta do ``Tesseract-OCR``. Geralmente o caminho completo é
 ```cmd
 C:\Program Files\Tesseract-OCR
 ```
 - Após a instalação, talvez seja necessário adicionar o caminho completo da pasta ``Tesseract-OCR`` ao ``PATH`` do windows.
-- Durante a instalação, adicione os pacotes de idioma, pelo menos o português, o espanhol e o de símbolos matemáticos. Veja o [tutorial](https://codetoprosper.com/tesseract-ocr-for-windows).
+- Durante a instalação, adicione os pacotes de idioma, pelo menos o português, o espanhol e o de símbolos matemáticos. Veja este [tutorial](https://codetoprosper.com/tesseract-ocr-for-windows).
 
 ### Instalação <u>posterior</u> do pacote de idiomas para o tesseract-OCR:
 
